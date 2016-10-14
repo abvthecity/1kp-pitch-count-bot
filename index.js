@@ -16,7 +16,12 @@ app.get('/get_count', function (req, res) {
       },
       function (response) {
         if (response && !response.error) {
-          res.send("Current pitch count is: " + response.data.length);
+          var msg = {
+            response_type: "in_channel",
+            text: "Current pitch count is: " + response.data.length + ""
+          };
+          res.setHeader('Content-Type', 'application/json');
+          res.json(msg);
         }
       }
   );
