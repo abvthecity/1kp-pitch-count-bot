@@ -1,0 +1,23 @@
+{
+  "name": "1kp-pitch-count-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjiangstar/1kp-pitch-count-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninjiangstar/1kp-pitch-count-bot/issues"
+  },
+  "homepage": "https://github.com/ninjiangstar/1kp-pitch-count-bot#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fb": "^1.1.1"
+  }
+}
